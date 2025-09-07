@@ -1,12 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejemplo con Menú y Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        /* Estilos del menú */
+        
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        /* Estilos del contenedor principal */
+        
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        p {
+            line-height: 1.6;
+        }
+    </style>
 </head>
+
 <body>
-    <p>Esta es mi primera pagina web</p>
-    <a href="https://www.ejemplo.com">Visitar ejemplo.com</a>
+    <!-- Menú -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Post -->
+    <div class="container">
+        <h1>Mi Primer Post</h1>
+        <p><strong>Publicado el:</strong> 7 de septiembre de 2025</p>
+        <p>
+            Este es un ejemplo de un post simple en HTML con un menú de navegación. Aquí puedes escribir el contenido que desees compartir con tus lectores.
+        </p>
+        <p>
+            También puedes añadir imágenes, enlaces o cualquier otro elemento HTML que haga tu post más atractivo y completo.
+        </p>
+    </div>
 </body>
+
 </html>
